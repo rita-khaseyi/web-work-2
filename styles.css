@@ -1,0 +1,357 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3px;
+  
+}
+body{
+    background-color: rgb(233, 228, 228);
+}
+ul  a{
+    text-decoration: none;
+    padding: 3px;
+    color: rgb(3, 2, 0);
+   
+}
+ul li{
+    list-style: none;
+    padding: 3px;
+    
+}
+ul button{
+    background-color: palegoldenrod;
+}
+.nav1{
+    display: flex;
+    
+
+}
+.best{
+  text-align: center;
+  font-size: 50px;
+}
+.wording{
+    font-size:100px;
+  }
+  .fix{
+    color: brown;
+  }
+  .section1{
+    display: flex;
+    background-image: url(/images/background.png);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .image1{
+   
+    margin-right: 60%;
+  }
+  .image{
+    width: 800px;
+    height: 600px;
+  }
+  #play{
+    font-size: 35px;
+    color: red;
+    padding: 10px;
+  }
+  .button1{
+    background-color: rgb(223, 0, 0);
+    padding: 10px 12px;
+    border-radius: 10%;
+    font-size: 20px;
+    
+    
+
+  }
+  .shoe1{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(skyblue,purple) ;
+    border-radius: 20%;
+  }
+  .shoe2{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(skyblue,deeppink);
+    border-radius: 15%;
+  }
+  .shoe3{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(pink,rgb(73, 0, 73));
+    border-radius: 15%;
+  }
+
+  .shoez{
+    display: flex;
+    border: solid white;
+    background-color: white;
+    border-radius: 15%;
+  }
+  .shoez2{
+    display: flex;
+    border: solid white;
+    background-color: white;
+    border-radius: 15%;
+
+  }
+  .shoez3{
+    display: flex;
+    border: solid white;
+    background-color: white;
+    border-radius: 15%;
+  }
+  .content2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+  }
+  .nike{
+    font-size: 30px;
+  }
+  .puma{
+    font-size: 30px;
+  }
+  .adidas{
+    font-size: 30px;
+  }
+  .feats{
+    text-align: center;
+    font-size: 50px;
+  }
+  .men{
+    color: red;
+    font-size: 30px;
+    margin-left: 5%;
+    }
+    .women{
+    font-size: 30px;
+    margin-left: 5%;
+    }
+    .child{
+    font-size: 30px;
+    margin-left: 5%;
+    }
+    .adidass{
+      width: 250px;
+      height: 250px;
+      background-color: white;
+    }
+  
+    .nikess{
+      width: 250px;
+      height: 250px;
+      background-color: white;
+    }
+    .nikes{
+      display: flex;
+    }
+    .pumads{
+      display: flex;
+    }
+    .pumaaa{
+      width: 250px;
+      height: 250px;
+      background-color: white;
+      
+      
+      
+    }
+    .filass{
+      display: flex;
+    }
+    .filad{
+      width: 250px;
+      height: 250px;
+      background-color: white;
+    }
+    .adidaz{
+      display: flex;
+      justify-content: space-evenly;
+      
+    }
+    .mom{
+      margin: 0 40px;
+    }
+    .pumaz2{
+      width: 250px;
+      height: 250px;
+      background-color: white;
+    }
+    .puma2{
+      display: flex;
+    }
+    .nikez2{
+      width: 250px;
+      height: 250px;
+      background-color: white;
+    }
+    .nike2{
+      display: flex;
+
+    }
+    .adidaz2{
+      display: flex;
+    }
+    .adidas2{
+      width: 250px;
+      height: 250px;
+      background-color: white;
+    }
+    .adidaz3{
+      display: flex;
+    }
+    .adidas3{
+      width: 250px;
+      height: 250px;
+      background-color: white;
+    }
+    .see{
+      text-align: center;
+      margin-right: 6%;
+    }
+    .butt{
+      padding: 10px 8px;
+      color: red;
+    }
+    .sneaky{
+      display: flex;
+      margin-left: 7%;
+    }
+    .sneakers{
+      height: 250px;
+      width: 250px;
+    }   
+    .special{
+      color: rgb(204, 59, 6);
+      font-size: 30px;
+    }
+    .s{
+      color: red;
+    }
+    .dol{
+      color: rgb(201, 8, 8);
+    }
+    .buts{
+      padding: 10px 12px ;
+      background-color: red;
+    } 
+    .but{
+      padding: 10px 12px ;
+      background-color: red;
+    }
+    .statistics{
+      display: flex;
+      margin-top: 5%;
+      margin-left: 7%;
+    }
+    .Test{
+      color:rgb(216, 14, 14);
+      font-size: 25px;
+    }
+    .what{
+      font-size: 50px;
+    }
+    .avatar{
+  
+      vertical-align: middle;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+  
+  }
+  .stats{
+    margin-left: 10%;
+    border: solid aliceblue;
+    
+    background-color: white;
+  }
+  .cir{
+  
+    height: 25px;
+    width: 25px;
+    background-color: #d13696;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .subscribe{
+    text-align: center;
+    background-color: rgb(247, 188, 198);
+    margin-top: 5%;
+
+    border: solid rgb(241, 202, 208) ;
+    margin-left: 7%;
+   
+  
+    
+  
+  
+  }
+  .sub{
+    font-size: 30px;
+  }
+  input{
+    padding: 15px;
+  }
+  .button{
+    padding: 15px;
+    color: rgb(100, 30, 30);
+    background-color: rgb(211, 39, 39);
+  }
+  .lorem{
+    color: white;
+  }
+
+  .new{
+   font-size:50px;
+  }
+  .butt{
+    padding: 10px 8px;
+    color: red;
+  }
+  .find{
+    background-color: rgb(216, 14, 14);
+  }
+  .alls{
+    display: flex;
+  }
+  .image{
+    width: 20cm;
+    height: 20cm;
+  }
+  
+  .main{
+  
+      padding: 1.25rem;
+      min-width: 12.5rem;
+  }
+  .divs{
+    display: flex;
+  }
+  .ul{
+    padding-left: 0%;
+  }
+ .main a{
+    color: white;
+    text-decoration: none;
+  }
+  footer{
+  background-color: rgb(234, 34, 34);
+  margin-top: 5%;
+  }
+  .google{
+    width: 60px;
+    height: 30px;
+  }
+  .apple{
+    width: 60px;
+    height: 30px;
+  }
+  main ul a{
+    color: white;
+  }
+ 
+
+
