@@ -1,3 +1,59 @@
+
+@media screen and (min-width:400px) and (max-width:1440px){
+  .navbar{
+    display: flex;
+    overflow: hidden;
+    padding: 10px 20px;
+    background-color: palevioletred;
+  }
+  .navs{
+    display: flex;
+    padding: 20px 32px;
+  }
+  .imagez{
+    max-width: 90%;
+
+  }
+  .section1{
+  
+  @shoe1{
+    max-width: 100px;
+    max-height:100px;
+  
+}
+  }
+}
+@media only screen and (min-width:400px) and (max-width:1000px){
+.shoez1{
+max-width: 300px;
+max-height: 300px;
+display: flex;
+}
+.imagez1{
+display: flex;
+font-size: xx-small;
+}
+.minimal{
+font-size: xx-small;
+padding: 0%;
+}
+body{
+max-width: 100%;
+max-height: 100%;
+}
+footer{
+max-width: 100%;
+max-height: 100%;}
+
+}
+
+
+
+
+
+body{
+  background-color: rgb(241, 232, 232);
+}
 .navbar{
     display: flex;
     justify-content: space-evenly;
