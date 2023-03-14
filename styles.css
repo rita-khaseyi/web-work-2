@@ -352,6 +352,272 @@ ul button{
   main ul a{
     color: white;
   }
+
+  .navbars{
+
+    display: flex;
+    overflow: hidden;
+    padding: 10px 20px;
+ 
+  
+}
+
+.navs1 a{
+   
+    float: right;
+    
+    color: #070303;
+    
+    padding: 18px 24px;
+    text-decoration: none;
+    
+  }
+  .navs1{
+    display: flex;
+    flex-direction: row;
+    padding: 16px 24px;
+
+  }
+  @media screen and (min-width:400px) and (max-width:1440px){
+    .navbars{
+      display: flex;
+      overflow: hidden;
+      padding: 10px 20px;
+      background-color: palevioletred;
+    }
+    .navs1{
+      display: flex;
+      padding: 20px 32px;
+    }
+    .imagez1{
+      max-width: 90%;
+
+    }
+    .containers1{
+    
+    @shoe1{
+      max-width: 100px;
+      max-height:100px;
+    
+  }
+    }
+}
+@media only screen and (min-width:400px) and (max-width:1000px){
+.shoez1{
+  max-width: 300px;
+  max-height: 300px;
+  display: flex;
+}
+.imagez1{
+  display: flex;
+font-size: xx-small;
+}
+.minimal{
+  font-size: xx-small;
+  padding: 0%;
+}
+body{
+  max-width: 100%;
+  max-height: 100%;
+}
+footer{
+  max-width: 100%;
+  max-height: 100%;}
+
+}
+
+
+  
+
+
+body{
+    background-color: rgb(241, 232, 232);
+}
+
+
+.imgs1{
+    width: 150px;
+    height: 150px;
+}
+.imgs2{
+    width: 150px;
+    height: 150px;
+}
+.imgsing3{
+    width: 150px;
+    height: 150px;
+}
+.m{
+    font-size: 30px;
+}
+.l{
+    font-size: 30px;
+}
+.x{
+    font-size: 30px;
+}
+.xx{
+    font-size: 30px;
+}
+.dot {
+    height: 30px;
+    width: 30px;
+    background-color: hotpink;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 30px;
+  }
+  .sizes{
+    padding: 20px 10px;
+  }
+  .containers1{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+   
+    
+
+  }
+  .logo{
+    width: 30px;
+    height: 30px;
+  }
+  .shoe1z{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+
+ 
+
+    
+  }
+  .imging5{
+    width: 200px;
+    height: 250px;
+  }
+  .imging6{
+    width: 200px;
+    height: 250px;
+  }
+  .imging7{
+    width: 200px;
+    height: 250px;
+  }
+  .imging8{
+    width: 200px;
+    height: 250px;
+  }
+  .containerss4{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+  }
+  .mains{
+
+    padding: 20px;
+    min-width: 10px;
+    color: white;
+}
+.divss{
+    display: flex;
+  }
+  .ul{
+    padding-left: 0%;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    
+  }
+  footer{
+  background-color: rgb(243, 66, 66);
+  margin-top: 8%;
+  }
+  .copys{
+    color: white;
+    text-align: center;
+  }
+  .mains a{
+    color: white;
+  }
+  .imgg5{
+    background-color: white;
+  
+  }
+  .imggs8{
+    background-color: white;
+  }
+  .imggs7{
+    background-color: white;
+  }
+  .imggs6{
+    background-color: white;
+  }
+  .google{
+    width: 50px;
+    height: 50px;
+  }
+  .apple{
+    width: 50px;
+    height: 50px;
+  }
+  .mens{
+    color: rgb(238, 17, 17);
+    font-size: 30px;
+  }
+  .off{
+    color: rgb(238, 17, 17);
+  }
+.price{
+    font-size: 30px;
+}
+.size{
+    color:rgb(238, 17, 17) ;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.order{
+  color: red;
+  border: solid red;
+  padding: 4px 4px;
+}
+#add{
+  padding: 4px 4px;
+  background-image: linear-gradient(rgb(202, 20, 50),rgb(255, 0, 225));
+}
+.product{
+  color: grey;
+}
+.care{
+  color: grey;
+}
+.black{
+  font-size: larger;
+}
+.wa{
+  font-size: larger;
+}
+.sold{
+  color: grey;
+}
+.pos{
+  font-size: larger;
+}
+.head{
+  text-align: center;
+  font-size: 60px;
+}
+@media(max-width: 1150px){
+  .mains{
+    padding: 15px;
+    min-width: 10px;
+  }
+}
+.minimal{
+  font-size: 20px;
+}
  
 
 
