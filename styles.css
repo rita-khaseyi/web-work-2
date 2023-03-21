@@ -1,4 +1,76 @@
 
+
+/* MEDIA QUERY */
+
+@media (min-width: 300px) and (max-width: 760px ) {
+  body{
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+	.navbar{
+		font-size: small;
+		margin-right: 0;
+		margin-left: 0;
+		padding: 0;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.navbar ul {
+    display: flex;
+		margin: 1%;
+		padding:1px;
+	}
+   .navbar a {
+		padding: 1em;
+		text-decoration: none;
+
+	}
+  .section1{
+    display: none;
+    background-image: none;
+
+     }
+  .heading h1{
+      font-size: 20px;
+     }
+  .image1 img{
+    width: 200px;
+    height: 200px;
+    
+  }
+    
+  .section1 button{
+    padding: 3px 2px;
+  }
+  .image1{
+
+  }
+
+ 
+  .wording{
+    font-size: 20px;
+  }
+  .secss h1{
+    font-size: 40px;
+  }
+  .content2{
+    display: grid ;
+    grid-template-columns: repeat(1/1,);
+  
+    
+    
+  }
+ 
+  .heading h1{
+    font-size: 20px;
+
+  }
+  .shoez
+
+}
+
 @media screen and (min-width:400px) and (max-width:1440px){
   .navbar{
     display: flex;
@@ -22,7 +94,11 @@
   
 }
   }
-}
+  footer{
+    max-width: 100%;
+    max-height: 100%;}
+    
+    }
 @media only screen and (min-width:400px) and (max-width:1000px){
 .shoez1{
 max-width: 300px;
@@ -98,6 +174,7 @@ ul button{
     background-size: 600px;
     background-repeat: no-repeat;
     background-position: right;
+    
   }
   .image1{
    
@@ -182,13 +259,37 @@ ul button{
     font-size: 30px;
     margin-left: 5%;
     }
+    .men a{
+      color: red;
+    }
     .women{
     font-size: 30px;
     margin-left: 5%;
     }
+    .women a{
+      color: black;
+
+    }
     .child{
     font-size: 30px;
     margin-left: 5%;
+    }
+    .child a{
+      color: black;
+
+    }
+    .me a{
+      color: black;
+    }
+    .N a{
+      color: black;
+
+    }
+    .S a{
+      color: black;
+    }
+    .H a{
+      color: black;
     }
     .adidass{
       width: 250px;
@@ -214,6 +315,10 @@ ul button{
       
       
       
+    }
+    .days{
+      background-color: white;
+      border-radius: 20px;
     }
     .filass{
       display: flex;
@@ -275,10 +380,12 @@ ul button{
     .sneaky{
       display: flex;
       margin-left: 7%;
+      border-radius: 20px;
     }
     .sneakers{
       height: 250px;
       width: 250px;
+      border-radius: 20px;
     }   
     .special{
       color: rgb(204, 59, 6);
@@ -292,11 +399,14 @@ ul button{
     }
     .buts{
       padding: 10px 12px ;
-      background-color: red;
+      background: linear-gradient(red,orange);
+      padding: 6px 14px;
     } 
     .but{
       padding: 10px 12px ;
-      background-color: red;
+      border: solid rgb(230, 66, 16);
+      background-color: white;
+      padding: 6px 14px;
     }
     .statistics{
       display: flex;
@@ -336,6 +446,7 @@ ul button{
     text-align: center;
     background-color: rgb(247, 188, 198);
     margin-top: 5%;
+    border-radius: 40px;
 
     border: solid rgb(241, 202, 208) ;
     margin-left: 7%;
@@ -385,6 +496,7 @@ ul button{
   }
   .divs{
     display: flex;
+  
   }
   .ul{
     padding-left: 0%;
@@ -675,5 +787,134 @@ body{
   font-size: 20px;
 }
  
+.navbar3{
+
+  display: flex;
+  overflow: hidden;
+  padding: 10px 20px;
+
+
+}
+.navs3{
+  display: flex;
+  padding: 20px 32px;
+}
+.navs3 a{
+   
+  float: right;
+  
+  color: #070303;
+  
+  padding: 18px 24px;
+  text-decoration: none;
+  
+}
+.jordan{
+  width: 400px;
+  height: 450px;
+  border-radius: 5%;
+}
+.firstbox{
+display: flex;
+gap: 1rem;
+margin-left: 5%;
+ 
+}
+.navs3 button{
+  padding: 5px 5px;
+}
+.firstbox1{
+  gap: 1rem;
+  margin-left: 5%;
+   
+  }
+.red{
+  width: 400px;
+  height: 500px;
+  border-radius: 5%;
+}
+.vision{
+display: flex;
+}
+.approach{
+  display: flex;
+} 
+ .mains{
+
+  padding: 20px;
+  min-width: 10px;
+  color: white;
+}
+.divss{
+  display: flex;
+}
+.ul{
+  padding-left: 0%;
+}
+a{
+  color: white;
+  text-decoration: none;
+  
+}
+footer{
+background-color: rgb(243, 66, 66);
+margin-top: 8%;
+}
+.copys{
+  color: white;
+  text-align: center;
+}
+.mains1 a{
+  color: white;
+}
+.navbar4{
+
+  display: flex;
+  overflow: hidden;
+  padding: 10px 20px;
+
+
+}
+.navs4{
+  display: flex;
+  padding: 20px 32px;
+}
+.navs4 a{
+   
+  float: right;
+  
+  color: #070303;
+  
+  padding: 18px 24px;
+  text-decoration: none;
+  
+}
+input{
+  width: 500px;
+  border-radius: 20px;
+}
+.us{
+  font-size: 60px;
+  text-align: center;
+}
+.short{
+  font-size: 60px;
+  text-align: center;
+}
+.short1{
+  font-size: 20px;
+  font-weight: bold;
+}
+.short2{
+  font-size: 20px;
+  font-weight: bold;
+}
+.shorts{
+  background: linear-gradient(red,rgba(133, 19, 123, 0.973));
+  padding: 14px 40px;
+}
+
+
+
 
 
